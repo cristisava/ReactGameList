@@ -2,8 +2,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="Title">
+      Just a Small Game List
     </div>
   );
 }
