@@ -17,12 +17,16 @@ function App() {
     
   }, [])
 
-  return (
+  return (<>
+    <header className="upT">
+        The GameList
+        </header>
     <div className="game-container">
       {games.length > 0 && games.map(game => (
         <Game key={game._id} {...game} />
       ))}
     </div>
+    </>
   );
 }
 
